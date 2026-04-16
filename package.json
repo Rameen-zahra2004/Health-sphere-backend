@@ -4,24 +4,20 @@
   "description": "",
   "main": "dist/server.js",
   "type": "commonjs",
-
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "ts-node src/server.ts"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
-
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.4.1"
   },
-
   "devDependencies": {
     "@types/node": "^25.6.0",
     "nodemon": "^3.1.14",
