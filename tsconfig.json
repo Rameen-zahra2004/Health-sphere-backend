@@ -5,8 +5,8 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
 
-    "rootDir": ".",
-    "outDir": "dist",
+    "rootDir": "./",
+    "outDir": "./dist",
 
     "strict": true,
     "esModuleInterop": true,
@@ -14,13 +14,9 @@
     "skipLibCheck": true,
 
     "forceConsistentCasingInFileNames": true,
-    "allowJs": false,
-    "declaration": false,
-    "sourceMap": false,
-
     "types": ["node"]
   },
 
-  "include": ["**/*.ts", "**/*.d.ts"],
-  "exclude": ["node_modules", ".next", "dist"]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
