@@ -1,6 +1,11 @@
 # dependencies
 node_modules
 
+# build output (IMPORTANT)
+dist
+build
+.next
+
 # environment variables
 .env
 .env.local
@@ -17,7 +22,3 @@ pnpm-debug.log*
 # IDE
 .vscode
 .idea
-
-# build output (IGNORE ONLY LOCAL OPTIONAL BUILDS)
-build
-.next
